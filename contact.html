@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tea Staion - Home</title>
+
+    <!-- Links -->
+    <link rel="stylesheet" type="text/css" href="./Styles/style.css" />
+    <script
+      src="https://kit.fontawesome.com/e21c398f26.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--End of Links -->
+  </head>
+  <body>
+    <!-- NAV BUTTON -->
+    <span id="nav-icon">
+      <i class="fas fa-bars"></i>
+    </span>
+    <!-- NAVBAR -->
+    <nav class="navbar" id="navbar">
+      <span id="nav-close">
+        <i class="fas fa-times"></i>
+      </span>
+      <ul class="nav-items">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./explore.html">skills</a></li>
+        <li><a href="./product.html">products</a></li>
+        <li><a href="./about.html">about us</a></li>
+        <li><a href="./contact.html">Contact us</a></li>
+      </ul>
+    </nav>
+    <script src="./nav.js"></script>
+    <!-- END OF NAVBAR -->
+    <!-- HEADER -->
+    <header class="header">
+      <div class="banner">
+        <h3 class="banner-subtitle">Over one hundred flavours of Tea</h3>
+        <h1 class="banner-title">specially crafted tea</h1>
+        <a href="./explore.html" class="headerBtn button">explore</a>
+      </div>
+    </header>
+    <!-- END OF HEADER -->
+    <div class="content-divider"></div>
+    <!-- CONTACT -->
+    <section class="contact">
+      <div class="section-centre clearfix">
+        <!-- CONTACT INFO -->
+        <article class="contact-info">
+          <div class="single-info">
+            <h3 class="section-subtitle contact-title">
+              <span class="contact-icon">
+                <i class="fas fa-location-arrow"></i> </span
+              >address
+            </h3>
+            <h3 class="contact-text section-subtitle">
+              <address>523 N Fairfax Ave, Los Angeles, CA 90048</address>
+            </h3>
+          </div>
+          <div class="single-info">
+            <h3 class="section-subtitle contact-title">
+              <span class="contact-icon"> <i class="fas fa-envelope"></i> </span
+              >email
+            </h3>
+            <h3 class="contact-text section-subtitle">
+              <a href="mailto:email@email.com">email@email.com</a>
+            </h3>
+          </div>
+          <div class="single-info">
+            <h3 class="section-subtitle contact-title">
+              <span class="contact-icon"> <i class="fas fa-phone"></i> </span
+              >phone
+            </h3>
+            <h3 class="contact-text section-subtitle">
+              <a href="tel:+ 923 456 789">+ 923 456 789</a>
+            </h3>
+          </div>
+        </article>
+        <!-- END OF CONTACT INFO -->
+        <!-- CONTACT FORM -->
+        <article class="contact-form">
+          <form
+            action="https://formspree.io/f/xknknnzz"
+            method="post"
+            class="form"
+          >
+            <div class="form-entry">
+              <label for="Name" class="label-form">Name</label>
+              <br />
+              <input
+                type="text"
+                name="Name"
+                id="Name"
+                class="form-input"
+                required
+              />
+            </div>
+            <div class="form-entry">
+              <label for="email" class="label-form">Email</label>
+              <br />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="form-input"
+                required
+              />
+            </div>
+            <div class="form-entry">
+              <label for="comments" class="label-form">Comments</label>
+              <br />
+              <textarea
+                name="comments"
+                id="comments"
+                rows="5"
+                class="form-input"
+              ></textarea>
+            </div>
+            <input
+              type="hidden"
+              name="_subject"
+              value="Tea Station: New submission!"
+            />
+            <button type="submit" class="button submit-button">SEND</button>
+            <button type="reset" class="button submit-button">Clear</button>
+          </form>
+        </article>
+        <!-- END OF CONTACT FORM -->
+      </div>
+    </section>
+    <!-- END OF CONTACT -->
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="section-centre clearfix">
+        <article class="social-links">
+          <a href="https://www.facebook.com/" target="_blank" class="link">
+            <span class="link-icon">
+              <i class="fab fa-facebook"></i>
+            </span>
+          </a>
+          <a href="https://www.twitter.com/" target="_blank" class="link">
+            <span class="link-icon">
+              <i class="fab fa-twitter"></i>
+            </span>
+          </a>
+          <a href="https://www.instagram.com/" target="_blank" class="link">
+            <span class="link-icon">
+              <i class="fab fa-instagram"></i>
+            </span>
+          </a>
+        </article>
+        <article class="footer-text">
+          <p class="footer-p">
+            &copy;2021 <span class="company-name">tea station</span>. all rights
+            reserved
+          </p>
+        </article>
+      </div>
+    </footer>
+    <!-- END OF FOOTER -->
+  </body>
+</html>
